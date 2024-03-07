@@ -27,7 +27,7 @@ const Clouds = () => {
                     <LinkButton title='Images' url="/images"/>
                     <LinkButton title='Videos' url="/videos"/>
                 </div>
-                <audio autoPlay loop controls>
+                <audio loop controls>
                     <source src="/media/YouSeeBIGGIRL.mp3" type="audio/mpeg" />
                 </audio>
             </div>
