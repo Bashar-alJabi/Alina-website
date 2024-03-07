@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/eleComponents/Clouds/Clouds.jsx", "src/eleComponents/News/DaysCountdown.jsx", "src/eleComponents/News/HoursCountdown.jsx", "src/eleComponents/News/MinutesCountdown.jsx", "src/eleComponents/News/SecondsCountdown.jsx", "src/eleComponents/News/BigBattleDays.jsx", "src/eleComponents/News/BigBattleSeconds.jsx", "src/eleComponents/News/BigBattleMinutes.jsx", "src/eleComponents/News/BigBattleHours.jsx"],
+  "exclude": ["node_modules"]
+}
