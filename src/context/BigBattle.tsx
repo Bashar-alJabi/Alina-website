@@ -10,7 +10,7 @@ export const BigBattleContext = createContext<{ countdown2: Countdown }>({ count
 
 export const BigBattleProvider = ({children}: {children: React.ReactNode}) => {
 
-    const targetDate2 = new Date('Mar 9, 2024 07:30:00').getTime();
+    const targetDate2 = new Date('Mar 9, 2024 04:30:00').getTime();
 
 	const [countdown2, setCountdown] = useState({days: 0, hours: 0, minutes: 0, seconds: 0});
 
