@@ -1,15 +1,15 @@
-"use client"
+// "use client"
 
-import { BigBattleContext } from "@/context/BigBattle";
-import { useContext } from "react";
+// import { BigBattleContext } from "@/context/BigBattle";
+// import { useContext } from "react";
 
-const BigBattleDays = () => {
+// const BigBattleDays = () => {
 
-    const { countdown2 } = useContext(BigBattleContext);
+//     const { countdown2 } = useContext(BigBattleContext);
 
-    return (
-        <span style={{ "--value": countdown2.days }}></span>
-    )
-}
+//     return (
+//         <span style={{ "--value": countdown2.days }}></span>
+//     )
+// }
 
-export default BigBattleDays
+// export default BigBattleDays
