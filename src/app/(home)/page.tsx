@@ -61,7 +61,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    {/* <div>
                         <p style={{color: '#ddd'}}>Live Event (Agency Battle)</p>
                         <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
                             <div className="flex flex-col">
@@ -89,7 +89,7 @@ const Home = () => {
                                 sec
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 {/* end News */}
                 <div style={{position: 'absolute', right: '0.25rem', bottom: '0'}}>
