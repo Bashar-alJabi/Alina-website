@@ -1,9 +1,9 @@
 import Button from "@/components/Button/Button";
 import Navbar from "@/components/Navbar/Navbar";
-import BigBattleDays from "@/eleComponents/News/BigBattleDays";
-import BigBattleHours from "@/eleComponents/News/BigBattleHours";
-import BigBattleMinutes from "@/eleComponents/News/BigBattleMinutes";
-import BigBattleSeconds from "@/eleComponents/News/BigBattleSeconds";
+// import BigBattleDays from "@/eleComponents/News/BigBattleDays";
+// import BigBattleHours from "@/eleComponents/News/BigBattleHours";
+// import BigBattleMinutes from "@/eleComponents/News/BigBattleMinutes";
+// import BigBattleSeconds from "@/eleComponents/News/BigBattleSeconds";
 import DaysCountdown from "@/eleComponents/News/DaysCountdown";
 import HoursCountdown from "@/eleComponents/News/HoursCountdown";
 import MinutesCountdown from "@/eleComponents/News/MinutesCountdown";
