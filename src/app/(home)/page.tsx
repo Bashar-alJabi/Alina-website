@@ -22,8 +22,8 @@ export const metadata: Metadata = {
 const Home = () => {
 
     return (
-        <div className={styles.body}>
-            <div className="max-w-6xl my-0 mx-auto p-7 flex flex-col justify-between relative min-h-dvh">
+        <div className={styles.body} style={{minHeight: '100dvh'}}>
+            <div className="max-w-6xl my-0 mx-auto p-7 flex flex-col justify-between relative min-h-dvh" style={{minHeight: '100dvh'}}>
                 <Navbar />
                 <div className="relative z-10">
                     <WhoAmI />
