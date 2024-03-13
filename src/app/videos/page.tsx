@@ -38,7 +38,7 @@ const Videos = () => {
                     }
                 </div>
                 <div className='block m-auto'>
-                    <Link href='https://www.tiktok.com/@bbli83?_t=8kQTNnIymbB&_r=1' target='_blank' className='btn text-white my-5 btn-lg' style={{position: 'relative', left: '50%', transform: 'translateX(-50%)'}}>See More</Link>
+                    <Link href='https://www.tiktok.com/@bbli_official?_t=8kdtJqPDW77&_r=1' target='_blank' className='btn text-white my-5 btn-lg' style={{position: 'relative', left: '50%', transform: 'translateX(-50%)'}}>See More</Link>
                 </div>
             </div>
         </div>
