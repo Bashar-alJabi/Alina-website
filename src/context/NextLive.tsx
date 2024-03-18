@@ -10,7 +10,7 @@ export const NextLiveContext = createContext<{ countdown: Countdown }>({ countdo
 
 export const NextLiveProvider = ({children}: {children: React.ReactNode}) => {
 
-    const targetDate = new Date('Mar 17, 2024 05:15:00').getTime();
+    const targetDate = new Date('Mar 19, 2024 05:00:00').getTime();
 
 	const [countdown, setCountdown] = useState({days: 0, hours: 0, minutes: 0, seconds: 0});
 
