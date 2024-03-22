@@ -33,7 +33,7 @@ const Home = () => {
                 {/* start News */}
                 <div className="flex justify-start items-center gap-x-14 gap-y-4 flex-wrap z-10 mix-blend-exclusion">
                     <div>
-                        <p style={{color: '#ddd'}}>Next LiveStream</p>
+                        <p style={{color: '#ddd'}}>Next LiveStream (daily streamer)</p>
                         <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
                             <div className="flex flex-col">
                                 <span className="countdown font-mono text-4xl">
