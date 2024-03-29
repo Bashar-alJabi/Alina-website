@@ -19,7 +19,7 @@ const Navbar = () => {
                 </svg>
             </div>
             <div>
-                <Link href='/' className="font-bold text-2xl tracking-widest">BBLI😊</Link>
+                <Link href='/' className="font-bold text-2xl tracking-widest">Alina</Link>
                 <nav className="flex gap-5 mt-4">
                     {socialMedia.map(media =>
                         <Link key={media.id} href={media.link} target="_blank" className={styles.links}>
