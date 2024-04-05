@@ -19,4 +19,12 @@ export const Vids = [
         id: 5,
         src: '/media/video5.mp4'
     },
+    {
+        id: 6,
+        src: '/media/video6.mp4'
+    },
+    {
+        id: 7,
+        src: '/media/video7.mp4'
+    },
 ]
