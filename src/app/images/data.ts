@@ -35,4 +35,12 @@ export const Imgs = [
         id: 9,
         src: '/media/photo9.jpg'
     },
+    {
+        id: 10,
+        src: '/media/photo10.jpg'
+    },
+    {
+        id: 11,
+        src: '/media/photo11.jpg'
+    },
 ]

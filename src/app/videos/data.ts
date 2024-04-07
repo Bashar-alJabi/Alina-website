@@ -27,4 +27,8 @@ export const Vids = [
         id: 7,
         src: '/media/video7.mp4'
     },
+    {
+        id: 8,
+        src: '/media/video8.mp4'
+    },
 ]
