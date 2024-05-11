@@ -1,4 +1,4 @@
-// import { BigBattleProvider } from "@/context/BigBattle";
+import { BigBattleProvider } from "@/context/BigBattle";
 import { NextLiveProvider } from "@/context/NextLive";
 import { Poppins } from "next/font/google";
 import "./globals.css";
@@ -17,9 +17,9 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={bodyFont.className}>
 				<NextLiveProvider>
-					{/* <BigBattleProvider> */}
+					<BigBattleProvider>
 						{children}
-					{/* </BigBattleProvider> */}
+					</BigBattleProvider>
 				</NextLiveProvider>
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
 				<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>

@@ -1,9 +1,9 @@
 import Button from "@/components/Button/Button";
 import Navbar from "@/components/Navbar/Navbar";
-// import BigBattleDays from "@/eleComponents/News/BigBattleDays";
-// import BigBattleHours from "@/eleComponents/News/BigBattleHours";
-// import BigBattleMinutes from "@/eleComponents/News/BigBattleMinutes";
-// import BigBattleSeconds from "@/eleComponents/News/BigBattleSeconds";
+import BigBattleDays from "@/eleComponents/News/BigBattleDays";
+import BigBattleHours from "@/eleComponents/News/BigBattleHours";
+import BigBattleMinutes from "@/eleComponents/News/BigBattleMinutes";
+import BigBattleSeconds from "@/eleComponents/News/BigBattleSeconds";
 import DaysCountdown from "@/eleComponents/News/DaysCountdown";
 import HoursCountdown from "@/eleComponents/News/HoursCountdown";
 import MinutesCountdown from "@/eleComponents/News/MinutesCountdown";
@@ -61,8 +61,9 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <div>
-                        <p style={{color: '#ddd'}}>Live Event (Agency Battle)</p>
+                    <div>
+                        {/* <p style={{color: '#ddd'}}>Live Event (Agency Battle)</p> */}
+                        <p style={{color: '#ddd'}}>Official Battle</p>
                         <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
                             <div className="flex flex-col">
                                 <span className="countdown font-mono text-4xl">
@@ -89,7 +90,7 @@ const Home = () => {
                                 sec
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
                 {/* end News */}
                 <div style={{position: 'absolute', right: '0.25rem', bottom: '0'}}>
